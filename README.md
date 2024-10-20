@@ -40,24 +40,25 @@ python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 Install the required packages:
 
-
+```bash
 pip install -r requirements.txt
-Usage
+```
+## Usage
 Run the application:
-
-
+```bash
 python app.py
-Open your web browser and navigate to http://127.0.0.1:5000/.
+```
+Open your web browser and navigate to ```http://127.0.0.1:5000/```
 
 Upload an image and click on the 'Recognize' button to see the results.
 
-Contributing
+## Contributing
 Contributions are welcome! If you have suggestions for improvements or new features, please fork the repository and submit a pull request.
 
-Fork the repository
+## Fork the repository
 Create your feature branch (git checkout -b feature/YourFeature)
 Commit your changes (git commit -m 'Add some feature')
 Push to the branch (git push origin feature/YourFeature)
 Open a pull request
-License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
