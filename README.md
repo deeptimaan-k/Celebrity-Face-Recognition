@@ -1,17 +1,39 @@
-# Celebrity-Face-Recognition
+Celebrity Face Recognition
+This project implements a Celebrity Face Recognition system using deep learning techniques. The system is capable of identifying and recognizing celebrities from images using convolutional neural networks (CNNs).
 
-## Introduction
-This project demonstrates face and eye detection in images using OpenCV. Additionally, it includes a function to perform Wavelet Transform on images, which can be used for various image processing tasks. The project utilizes Haar cascades for detecting faces and eyes, and the `pywt` library for performing Wavelet Transforms.
+Table of Contents
+Features
+Technologies Used
+Installation
+Usage
+Contributing
+License
+Features
+Detects and recognizes multiple celebrities from images.
+Utilizes pre-trained models for high accuracy.
+User-friendly interface for easy interaction.
+Technologies Used
+Python: Programming language for implementing the project.
+OpenCV: Library for image processing and computer vision tasks.
+TensorFlow/Keras: Frameworks for building and training deep learning models.
+NumPy: Library for numerical operations.
+Flask: Framework for creating a web application interface.
+Installation
+Follow these steps to set up the project locally:
 
-## Features
-- Detect faces in an image
-- Detect eyes within the detected faces
-- Perform Wavelet Transform on the detected face regions
-- Crop and return face regions with at least two detected eyes
+Clone the repository:
+git clone https://github.com/deeptimaan-k/Celebrity-Face-Recognition.git
+cd Celebrity-Face-Recognition
+Create a virtual environment (optional but recommended):
 
-## Installation
-To set up the development environment, follow these steps:
+python -m venv venv source venv/bin/activate # On Windows use venv\Scripts\activate Install the required packages:
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/deeptimaan-k/Celebrity-Face-Recognition
+pip install -r requirements.txt Usage Run the application:
+
+python app.py Open your web browser and navigate to http://127.0.0.1:5000/.
+
+Upload an image and click on the 'Recognize' button to see the results.
+
+Contributing Contributions are welcome! If you have suggestions for improvements or new features, please fork the repository and submit a pull request.
+
+Fork the repository Create your feature branch (git checkout -b feature/YourFeature) Commit your changes (git commit -m 'Add some feature') Push to the branch (git push origin feature/YourFeature) Open a pull request License This project is licensed under the MIT License. See the LICENSE file for details.
