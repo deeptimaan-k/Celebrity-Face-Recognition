@@ -56,9 +56,19 @@ Upload an image and click on the 'Recognize' button to see the results.
 Contributions are welcome! If you have suggestions for improvements or new features, please fork the repository and submit a pull request.
 
 ## Fork the repository
-Create your feature branch (git checkout -b feature/YourFeature)
-Commit your changes (git commit -m 'Add some feature')
-Push to the branch (git push origin feature/YourFeature)
-Open a pull request
+Create your feature branch:
+
+```bash
+git checkout -b feature/AmazingFeature
+Commit your changes:
+```
+```bash
+git commit -m 'Add some AmazingFeature'
+Push to the branch:
+```
+```bash
+git push origin feature/AmazingFeature
+Open a Pull Request.
+```
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
